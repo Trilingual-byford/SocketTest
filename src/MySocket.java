@@ -6,10 +6,8 @@ import javax.swing.JOptionPane;
 
 public class MySocket {
 	public static void main(String[] args) {
-		//SocketListener s=new SocketListener();
-		//s.start();
-		new Mythread().start();
-	
+		SocketListener s=new SocketListener();
+		s.start();	
 	
 	}	
 	
